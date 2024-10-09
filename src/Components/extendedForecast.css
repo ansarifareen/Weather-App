@@ -1,0 +1,36 @@
+.extended-forecast-heading {
+    color: #545354;
+    margin-top: 25px;
+}
+
+
+.extended-forecasts-container {
+    margin-top: 15px;
+    display: flex;
+}
+.extended-forecasts-container .forecast-box {
+    width: calc(20% - 10px);
+    height: 120px;
+    border-radius: 4px;
+    background-color: #fb9e25;
+    color: #fff;
+    margin-right: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media(max-width: 768px){
+    .extended-forecasts-container{
+      flex-direction: column;
+    }
+  
+    .extended-forecasts-container .forecast-box{
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
